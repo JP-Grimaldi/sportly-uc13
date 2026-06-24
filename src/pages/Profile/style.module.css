@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-profile {
+    background-color: #16283a;
+    height: 92vh;
+    display: flex;
+}
+
+.section-profile {
+    width: 17%;
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.div-profile{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.div-info-user {
+    color: white;
+}
+
+.div-photo-user {
+    width: 50%;
+    position: relative;
+}
+
+.photo-user {
+    width: 8rem;
+    border-radius: 500px;
+}
+
+.btn-edit-profile {
+    border: transparent;
+    padding:  5px 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #1c3247;
+
+    position: relative;
+    left: -30px;
+    top: 20px;
+
+    cursor: pointer;
+}
+
+
+
+.section-info-profile {
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.nav-info {
+    background-color: #1c3247;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 50px;
+    width: 90%;
+}
+
+.nav-btn, .line {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+}
+
+.nav-btn:hover {
+  color: #00c3ff;
+}
+
+.section-cards {
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+}
+
+.div-card {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 35px;
+    background-color: #1c3247;
+    border-radius: 10px;
+
+    width: 28rem;
+}
+
+.div-card img {
+    width: 7rem;
+}
+
+.text-green {
+    color: rgb(53, 204, 53);
+}
+
+.section-cards-two {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.div-card-two img {
+    width: 20rem;
+    margin: auto;
+}
+
+.div-card-two {
+    background-color: #1c3247;
+    padding: 40px;
+    width: 32%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 10px;
+    color: white;
+}
+
+.div-card-three {
+    background-color: #1c3247;
+    padding: 40px;
+    width: 66%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+
+    gap: 20px;
+}
+.div-card-three img {
+    width: 20rem;
+}
+
+.div-card-two h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.div-card-three h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.line-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+
+    font-size: 25px;
+}
+
+.line-one img {
+    width: 70px;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 20px;
+}
+
+.sportly-coins {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    color: white;
+}
+
+.div-btn-photo-user img{
+    width: 30px;
+}
+.div-btn-photo-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(202, 202, 202);
+    padding: 5px;
+    border-radius: 50px;
+    right: 0;
+    bottom: 4px;
+    cursor: pointer;
+}
